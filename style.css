@@ -96,7 +96,7 @@ body li{
 }
 
 .main-bottom{
-  padding: 40px 20%;
+  padding: 40px 22%;
   color: rgb(102, 104, 104);
   background-color: rgb(231, 228, 228);
 }
@@ -249,7 +249,7 @@ p {
 }
 
 .lp-3{
-  margin: 50px 290px;
+  margin: 50px 25vw;
 }
 .lp-3-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -314,7 +314,7 @@ td{
   border: 2px solid linear-gradient(90deg,#ec3ba8, #9e0d86);
   background-color: rgb(233, 110, 168);
   border-radius: 30px;
-  margin: 0 42% 70px;
+  margin: 0 42vw 70px;
   box-shadow:0 7px 0 rgb(139, 23, 77);
   padding: 22px 80px;
   position: relative;
