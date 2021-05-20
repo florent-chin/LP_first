@@ -10,6 +10,7 @@ body li{
   margin-bottom:40px;
 }
 
+
 .header-left{
   padding-left: 45px;
   padding-top: 10px;
@@ -287,8 +288,8 @@ td{
 .lp-4-img2{
   position: relative;
   width: 50%;
-  
 }
+
 .lp-4-img h4{
   color: aliceblue;
   font-size: 20px;
@@ -296,7 +297,7 @@ td{
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  margin: auto;
+
 }
 .lp-4-phara h3{
   text-align: center;
