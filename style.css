@@ -1,0 +1,345 @@
+body{
+  margin: 0;
+  font-family: Arial,"メイリオ","游ゴシック体"
+}
+body li{
+  list-style: none;
+}
+
+.header{
+  margin-bottom:40px;
+}
+
+.header-left{
+  padding-left: 45px;
+  padding-top: 10px;
+}
+.header-right{
+  float: right;
+  margin-right: 45px;
+}
+.header-right a{
+  float: left;
+  padding:0 13px ;
+  color:black;
+  font-weight: lighter;
+  font-size: small;
+  text-decoration:none ;
+}
+
+.main-top{
+  position: relative;
+  margin-bottom: 600px;
+}
+.main-top img{
+  position: absolute;
+  right: 0;
+}
+.main-top-phara{
+  margin-left: 210px;
+  margin-top: 70px;
+  position: absolute;
+  top: 20px;
+}
+.main-top-h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  line-height: 80px;
+  color: rgb(150, 22, 82);
+}
+.main-top span{
+  color: rgb(46, 128, 140);
+}
+.main-top-phara h4{
+  padding-top: 35px;
+  color:rgb(150,22 ,82);
+}
+.main-top-phara small{
+  font-size: 5px;
+  padding-top: 5px;
+}
+
+.main-middle{
+  margin-bottom: 60px;
+}
+.main-middle-top{
+  border-bottom:2px solid rgb(173, 172, 171);
+  margin: 0 250px;
+  padding-bottom: 30px;
+}
+.main-middle-top h6{
+  padding-bottom: 10px;
+  font-size: 5px;
+  color:rgb(150,22 ,82) ;
+  font-family: 'Indie Flower', cursive;
+}
+.main-middle-top h3{
+  color: rgb(110, 107, 107);
+}
+.main-middle-bottom{
+  border-bottom: 2px solid rgb(173, 172, 171);
+  padding-bottom: 20px;
+  margin: 0 250px;
+}
+.main-middle-bottom li{
+  padding:15px 0;
+  border-bottom: 1px solid rgb(139, 137, 137);
+  font-size: 8px;
+}
+.main-middle-bottom span{
+  margin: 0 50px;
+  padding: 2px 15px;
+  color: aliceblue;
+  background-color: rgb(155, 59, 104);
+  border-radius: 20px;
+}
+
+.main-bottom{
+  padding: 40px 20%;
+  color: rgb(102, 104, 104);
+  background-color: rgb(231, 228, 228);
+}
+.bottom-bottom{
+  display: flex;
+}
+.bottom-phara{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.bottom-phara h6{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(150,22 ,82) ;
+  font-size: 7px;
+  padding-bottom: 10px;
+}
+.img{
+  margin-left: 120px;
+}
+.bottom-phara-2 h6{
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  line-height: 15px;
+}
+
+.lp-1{
+  padding: 50px 230px;
+}
+.lp-1-phara h6{
+  font-family: 'Indie Flower', cursive;
+  font-size: 5px;
+  color: rgb(150,22 ,82);
+  padding-bottom: 10px;
+}
+.lp-1-phara h3{
+  color: rgb(110, 107, 107);
+  padding-bottom: 20px;
+}
+.lp-1-img{
+  display: flex;
+}
+.lp-1-img1{
+  background-color: rgb(206, 50, 122);
+  padding: 30px 30px 50px;
+  color: azure;
+}
+.lp-1-img1 h4{
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.lp-1-img2{
+  display: flex;
+  background-color: rgb(170, 114, 140);
+  padding: 25px 40px 10px 10px;
+  color: azure;
+}
+.lp-1-img2 h4{
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.lp-1-img3{
+  display: flex;
+  background-color: rgb(192, 151, 170);
+  padding: 25px 40px 10px 10px;
+  color: azure;
+}
+.lp-1-img3 h4{
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+p {
+  font-size: 10px;
+  line-height: 15px;
+}
+.es{
+  padding-left: 10px;
+}
+
+.lp-2{
+  padding: 50px 230px 10px;
+  background-color: rgb(231, 228, 228);
+}
+.lp-2-phara h6{
+  font-family: 'Indie Flower', cursive;
+  font-size: 5px;
+  color: rgb(150,22 ,82);
+  padding-bottom: 10px;
+}
+.lp-2-phara h3{
+  color: rgb(110, 107, 107);
+  padding-bottom: 20px;
+}
+
+.ca-wrapp{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+}
+.card-img img{
+  border-radius: 8px 8px 0 0;
+}
+.card-text h2{
+  font-size: 10px;
+  padding: 15px 20px 20px;
+  color: rgb(110, 107, 107);
+  line-height: 20px;
+}
+.card-text h6{
+  color: aliceblue;
+  font-size: 5px;
+  background-color: rgb(150, 22, 82);
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  font-weight: lighter;
+  border-top-left-radius: 8px;
+  text-align: center;
+}
+.small{
+  padding:0 0 10px;
+}
+.card-text small{
+  font-size: 10px;
+  text-align: center;
+  color: rgb(110, 107, 107);
+  padding: 0 15px;
+}
+.lp-2-phara-2{
+  background-color: white;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px 0;
+  margin: 30px auto;
+  text-align: center;
+  border: 2px solid rgb(150, 22, 82);
+}
+.lp-2-phara-2 a{
+  color: rgb(150,22 ,82);
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.lp-3{
+  margin: 50px 290px;
+}
+.lp-3-phara h6{
+  font-family: 'Indie Flower', cursive;
+  font-size: 5px;
+  color: rgb(150,22 ,82);
+  padding-bottom: 10px;
+}
+.lp-3-phara h3{
+  color: rgb(110, 107, 107);
+  padding-bottom: 20px;
+}
+
+th{
+  border: 1px solid rgb(206, 199, 199);
+  padding: 13px 70px 13px 10px;
+  font-size: 10px;
+  text-align: left;
+  background-color: rgb(238, 236, 236);
+  color: rgb(110, 107, 107);
+}
+td{
+  border: 1px solid rgb(194, 187, 187);
+  padding: 10px 250px 10px 10px;
+  font-size:10px;
+  color: rgb(110, 107, 107);
+}
+
+.lp-4-img{
+  display: flex;
+  margin-bottom: 60px;
+}
+.lp-4-img1{
+  position: relative;
+  width: 50%;
+}
+.lp-4-img2{
+  position: relative;
+  width: 50%;
+  
+}
+.lp-4-img h4{
+  color: aliceblue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+.lp-4-phara h3{
+  text-align: center;
+  color: rgb(110, 107, 107);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.line{
+  background-color: rgb(150, 22, 82);
+  margin: 0 auto 15px;
+}
+.lp-4-btn{
+  display: flex;
+  border: 2px solid linear-gradient(90deg,#ec3ba8, #9e0d86);
+  background-color: rgb(233, 110, 168);
+  border-radius: 30px;
+  margin: 0 42% 70px;
+  box-shadow:0 7px 0 rgb(139, 23, 77);
+  padding: 22px 80px;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg,#ec3ba8, #9e0d86);
+}
+
+.lp-4-btn h3{
+  color: aliceblue;
+  font-size: 10px;
+  position: absolute;
+  top: 18px;
+  left: 58px;
+}
+.lp-4-btn i{
+  color: aliceblue;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+.footer{
+  background-color: rgb(230, 228, 227);
+  padding: 10px;
+  text-align: center;
+}
+.footer small{
+  font-size: 10px;
+  color: rgb(116, 117, 117);
+}
