@@ -65,7 +65,7 @@ body li{
 }
 .main-middle-top{
   border-bottom:2px solid rgb(173, 172, 171);
-  margin: 0 250px;
+  margin: 0 25vw;
   padding-bottom: 30px;
 }
 .main-middle-top h6{
@@ -80,7 +80,7 @@ body li{
 .main-middle-bottom{
   border-bottom: 2px solid rgb(173, 172, 171);
   padding-bottom: 20px;
-  margin: 0 250px;
+  margin: 0 25vw;
 }
 .main-middle-bottom li{
   padding:15px 0;
@@ -96,7 +96,7 @@ body li{
 }
 
 .main-bottom{
-  padding: 40px 22%;
+  padding: 40px 21vw;
   color: rgb(102, 104, 104);
   background-color: rgb(231, 228, 228);
 }
@@ -124,7 +124,7 @@ body li{
 }
 
 .lp-1{
-  padding: 50px 230px;
+  padding: 50px 21vw;
 }
 .lp-1-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -249,7 +249,7 @@ p {
 }
 
 .lp-3{
-  margin: 50px 25vw;
+  margin: 50px 27vw;
 }
 .lp-3-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -327,7 +327,7 @@ td{
   font-size: 10px;
   position: absolute;
   top: 18px;
-  left: 58px;
+  left: 53px;
 }
 .lp-4-btn i{
   color: aliceblue;
