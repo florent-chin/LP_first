@@ -1,0 +1,8 @@
+480
+768
+@media (max-width:480){
+  .header-lef{
+    text-align: center;
+    color: aqua;
+  }
+}
