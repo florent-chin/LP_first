@@ -6,27 +6,32 @@ body li{
   list-style: none;
 }
 
+/*header*/
 .header{
-  margin-bottom:40px;
+  margin:25px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 
 .header-left{
-  padding-left: 45px;
-  padding-top: 10px;
+  padding-left: 3vw;
 }
+
 .header-right{
-  float: right;
   margin-right: 45px;
+  display: flex;
 }
 .header-right a{
-  float: left;
   padding:0 13px ;
   color:black;
   font-weight: lighter;
   font-size: small;
   text-decoration:none ;
 }
+
+/*main-top*/
 
 .main-top{
   position: relative;
@@ -37,7 +42,7 @@ body li{
   right: 0;
 }
 .main-top-phara{
-  margin-left: 210px;
+  margin-left: 21vw;
   margin-top: 70px;
   position: absolute;
   top: 20px;
@@ -59,6 +64,8 @@ body li{
   font-size: 5px;
   padding-top: 5px;
 }
+
+/*main-middle*/
 
 .main-middle{
   margin-bottom: 60px;
@@ -88,24 +95,31 @@ body li{
   font-size: 8px;
 }
 .main-middle-bottom span{
-  margin: 0 50px;
+  margin: 0 4vw;
   padding: 2px 15px;
   color: aliceblue;
   background-color: rgb(155, 59, 104);
   border-radius: 20px;
 }
 
+
+/*main-bottom*/
+
+
 .main-bottom{
-  padding: 40px 21vw;
   color: rgb(102, 104, 104);
   background-color: rgb(231, 228, 228);
+  padding: 30px 0;
 }
 .bottom-bottom{
   display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content:space-between;
 }
 .bottom-phara{
-  text-align: center;
   padding-bottom: 30px;
+  text-align: center;
 }
 .bottom-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -113,18 +127,20 @@ body li{
   font-size: 7px;
   padding-bottom: 10px;
 }
-.img{
-  margin-left: 100px;
-}
+
 .bottom-phara-2 h6{
   font-size: 10px;
   font-weight: lighter;
   line-height: 15px;
-  margin: 0 auto 20px;
+  padding-bottom: 20px;
 }
 
+
+/*lp-1*/
+
 .lp-1{
-  padding: 50px 21vw;
+  margin: 50px auto;
+  width: 50%;
 }
 .lp-1-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -177,8 +193,10 @@ p {
   padding-left: 10px;
 }
 
+/*lp-2*/
+
 .lp-2{
-  padding: 50px 230px 10px;
+  padding: 50px 20vw 10px;
   background-color: rgb(231, 228, 228);
 }
 .lp-2-phara h6{
@@ -248,8 +266,11 @@ p {
   font-weight: bold;
 }
 
+/*lp-3*/
+
 .lp-3{
-  margin: 50px 27vw;
+  margin: 50px auto;
+  width: 50%;
 }
 .lp-3-phara h6{
   font-family: 'Indie Flower', cursive;
@@ -262,24 +283,33 @@ p {
   padding-bottom: 20px;
 }
 
+table{
+  width: 100%;
+}
+
 th{
   border: 1px solid rgb(206, 199, 199);
-  padding: 13px 70px 13px 10px;
+  padding: 13px 0 13px 10px;
   font-size: 10px;
   text-align: left;
   background-color: rgb(238, 236, 236);
   color: rgb(110, 107, 107);
+  width: 30%;
 }
 td{
   border: 1px solid rgb(194, 187, 187);
-  padding: 10px 250px 10px 10px;
+  padding: 10px 0 10px 10px;
   font-size:10px;
   color: rgb(110, 107, 107);
+  width: 70%;
 }
+
+/*lp-4*/
 
 .lp-4-img{
   display: flex;
   margin-bottom: 60px;
+  width: 100%;
 }
 .lp-4-img1{
   position: relative;
@@ -335,6 +365,9 @@ td{
   top: 16px;
   left: 10px;
 }
+
+/*footer*/
+
 .footer{
   background-color: rgb(230, 228, 227);
   padding: 10px;
@@ -346,4 +379,17 @@ td{
 }
 .lp-4{
   text-align: center;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 768px){
+  .lp-4-btn h3{
+    color: #9e0d86;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+
 }
